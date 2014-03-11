@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<directory>
-	<group ID="01000000000000000000000000000000" name="Admin">
-	</group>
-</directory>
-
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>	<group ID="01000000000000000000000000000000" name="Admin">		<include user="systemadmin" ID="7330D74368164E598ACDA7D87F672EF1"/>		<include user="designer" ID="BF7F4406C3DB4EC2A9BCEB5BBB4F0CE3"/>	</group>	<group ID="BB27E7CD4AAB4113B1CAB34604ACF386" name="AccountAdmin">		<include group="Admin" groupID="01000000000000000000000000000000"/>	</group>	<group ID="2DFCBF420C984DDFB11AE7837E2CE26B" name="AccountUser">		<include group="AccountAdmin" groupID="BB27E7CD4AAB4113B1CAB34604ACF386"/>	</group>	<user ID="7330D74368164E598ACDA7D87F672EF1" name="systemadmin" fullName="designer wakanda" password="88281d182dac2c735c62a7743fdd7985"/>	<user ID="BF7F4406C3DB4EC2A9BCEB5BBB4F0CE3" name="designer" fullName="designer wakanda" password="40bcd495ace026aafc2f75e71386d800"/></directory>
